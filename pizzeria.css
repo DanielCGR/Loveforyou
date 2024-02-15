@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Color de fondo */
+    color: #333; /* Color del texto principal */
+}
+
+header {
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+header img {
+    height: 50px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #e35e00; /* Color del título */
+}
+
+nav {
+    background-color: #e35e00; /* Color de fondo de la barra de navegación */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff; /* Color del texto del enlace */
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+main {
+    padding: 20px;
+}
+
+.banner {
+    background-color: #fff; /* Fondo del banner */
+    text-align: center;
+    padding: 50px 20px;
+    margin-bottom: 30px;
+}
+
+.banner h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #e35e00; /* Color del título */
+}
+
+.banner p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.banner a {
+    background-color: #e35e00; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.banner a:hover {
+    background-color: #b94600; /* Color de fondo del botón al pasar el ratón */
+}
+
+.menu, .ofertas, .testimonios {
+    background-color: #fff; /* Fondo de las secciones */
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.menu h3, .ofertas h3, .testimonios h3 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e35e00; /* Color del título */
+}
+
+.menu ul, .ofertas ul, .testimonios ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu li, .ofertas li, .testimonios li {
+    text-align: center;
+    margin-bottom: 20px;
+    width: calc(33.33% - 40px);
+    box-sizing: border-box;
+}
+
+.menu img, .ofertas img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.menu h4, .ofertas h4 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.menu p, .ofertas p {
+    font-size: 1.1em;
+}
+
+.menu a, .ofertas a {
+    background-color: #e35e00; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.menu a:hover, .ofertas a:hover {
+    background-color: #b94600; /* Color de fondo del botón al pasar el ratón */
+}
+
+.testimonios blockquote {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.testimonios blockquote:before {
+    content: open-quote;
+}
+
+.testimonios blockquote:after {
+    content: close-quote;
+}
+
+.testimonios li {
+    text-align: center;
+}
+
+footer {
+    background-color: #fff; /* Fondo del pie de página */
+    color: #888; /* Color del texto del pie de página */
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #888; /* Color del enlace del pie de página */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}

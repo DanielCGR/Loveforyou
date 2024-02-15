@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9eaf3; /* Rosa claro */
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 40px;
+    background-color: #ffffff; /* Blanco */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 32px;
+    color: #e6005c; /* Rosado oscuro */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #333333; /* Texto oscuro */
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+a {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #e6005c; /* Rosado oscuro */
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #c0392b; /* Rojo oscuro al pasar el mouse */
+}
+
+.left-image {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%) rotate(-5deg); /* Inclina la imagen hacia la izquierda */
+}
+
+.right-image {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%) rotate(5deg); /* Inclina la imagen hacia la derecha */
+}

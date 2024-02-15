@@ -1,0 +1,161 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    background-color: #d2b48c;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    height: 50px;
+}
+
+nav {
+    background-color: #cdaa7d;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Estilos para el banner */
+
+.banner {
+    text-align: center;
+    padding: 50px 20px;
+    margin-bottom: 30px;
+}
+
+.banner h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.banner a {
+    background-color: #a0805e;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.banner a:hover {
+    background-color: #8a6a46;
+}
+
+/* Estilos para la sección de productos */
+
+.productos {
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.productos h3 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.productos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.productos li {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.productos img {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.productos h4 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.productos p {
+    font-size: 1.1em;
+}
+
+.productos a {
+    background-color: #a0805e;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.productos a:hover {
+    background-color: #8a6a46;
+}
+
+/* Estilos para la sección de testimonios */
+
+.testimonios {
+    padding: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonio {
+    background-color: #f2e8da;
+    border-radius: 10px;
+    padding: 20px;
+    width: calc(33.33% - 20px); /* Para crear un diseño de 3 columnas */
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.testimonio blockquote {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.testimonio footer {
+    font-style: italic;
+    color: #888;
+    text-align: right;
+}
+
+/* Estilos para el pie de página */
+
+footer {
+    background-color: #f2e8da;
+    color: #8a6a46;
+    padding: 20px;
+    text-align: center;
+}
